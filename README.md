@@ -1,4 +1,4 @@
-<h2>Agentic Jira & GitHub Automation Assistant using MCP</h2>
+<h2>ClineAI MCP | Agentic Jira & GitHub Assistant using MCP</h2>
 <h2>📌Overview</h2>
 This work demonstrates an <b>Agentic workflow system</b> using MCP (Model Context Protocol) servers for Jira and GitHub automation.<br><br>
 The system integrates a VS Code <b>Cline extension as the agent orchestrator</b>, which interprets natural language commands and routes them to appropriate tool servers.<br><br>
