@@ -1,0 +1,1 @@
+Execution outputs of MCP-based Jira and GitHub automation through a Cline-powered agentic workflow.
