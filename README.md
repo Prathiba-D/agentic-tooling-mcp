@@ -1,13 +1,14 @@
+<h2>Agentic Jira & GitHub Automation Assistant using MCP</h2>
 <h2>📌Overview</h2>
-The work demonstrates an <b>Agentic DevOps workflow system</b> using MCP (Model Context Protocol) servers for Jira and GitHub automation.<br><br>
+This work demonstrates an <b>Agentic workflow system</b> using MCP (Model Context Protocol) servers for Jira and GitHub automation.<br><br>
 The system integrates a VS Code <b>Cline extension as the agent orchestrator</b>, which interprets natural language commands and routes them to appropriate tool servers.<br><br>
-It showcases how DevOps tasks like issue tracking, repository inspection, and branch creation can be partially automated using an agent-based architecture.
+It showcases how Jira and GitHub tasks such as issue tracking (listing, creation, and status transitions) and source control operations (repository inspection, commit history retrieval, and branch creation) can be done using an agent-based architecture.
 
 <h2>🏗️ System Architecture</h2>
 
 <p align="center">
   <img src="mcp-execution-outputs/cline-mcp-architecture.PNG" width="800"/><br>
-  <i>Agentic DevOps architecture showing Cline (VS Code) orchestrating Jira and GitHub MCP servers</i>
+  <i>Agentic Automation architecture showing Cline (VS Code) orchestrating Jira and GitHub MCP servers</i>
 </p>
 
 <h2>⚙️ Jira MCP Execution</h2>
@@ -81,14 +82,14 @@ It showcases how DevOps tasks like issue tracking, repository inspection, and br
 
 <h2>🎯 Purpose</h2>
 
-This work explores:
+This project explores:
 <ul>
-  <li>Agent-based orchestration using MCP servers</li>
-  <li>Tool abstraction for DevOps workflows</li>
-  <li>Natural language driven automation via VS Code Cline</li>
-  <li>Integration of Jira and GitHub into a unified agent system</li>
+  <li>Agent-based orchestration using MCP (Model Context Protocol) servers</li>
+  <li>Tool abstraction for external system APIs (Jira and GitHub)</li>
+  <li>Natural language driven automation via VS Code Cline extension</li>
+  <li>Integration of Jira and GitHub into a unified agent-controlled system</li>
 </ul>
 
 <h2>🚀 Key Insight</h2>
 
-This project demonstrates how agentic systems can bridge natural language and DevOps tooling, enabling structured automation across multiple platforms without direct manual API interaction.
+This project demonstrates how agentic systems can bridge natural language and external system APIs, enabling structured automation of Jira and GitHub operations such as issue management, repository inspection, and branch creation—without direct manual API interaction.
