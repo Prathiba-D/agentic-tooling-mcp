@@ -71,7 +71,7 @@ def handle_request(request):
             "Accept": "application/vnd.github+json"
         }
 
-        # ---------- Tool: Repo Info ----------
+        # ----------------------- Tool: Repo Info ----------------------------
         if tool_name == "get_repo_info":
             repo = args.get("repo")
 
@@ -92,7 +92,7 @@ def handle_request(request):
 
             return {"content": [{"type": "text", "text": result_text}]}
 
-        # Tool: Recent Commits 
+        #--------------------- Tool: Recent Commits ---------------------------
         elif tool_name == "get_recent_commits":
             repo = args.get("repo")
 
@@ -111,7 +111,7 @@ def handle_request(request):
                 ]
             }
 
-        # Tool: Create Branch
+        # --------------------------Tool: Create Branch----------------------------------
         elif tool_name == "create_branch":
             repo = args.get("repo")
             branch_name = args.get("branch_name")
